@@ -1,0 +1,208 @@
+/*General Style*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Condensed|Source+Sans+Pro&display=swap');
+header {
+    text-align: center;
+    padding-top: 1px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    background-color: #002E5D;
+}
+
+header nav {
+    background-color: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    padding: 0.5em 1em;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 1.5pt;
+    color: #002E5D;
+    font-size: 20px;
+}
+
+.main-sources a {
+    text-decoration: none;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-decoration: none;
+    letter-spacing: 1.5pt;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav li:hover {
+    background-color: #F2F2F2;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-bottom-color: #002E5D;
+    margin-bottom: 0px;
+}
+
+nav li a:visited {
+    text-decoration: none;
+}
+
+span {
+    font-weight: bold;
+}
+
+.top-footer {
+    background-color: #F6F6F8;
+    height: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002E5D;
+}
+
+.top-footer h4 {
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-left: 40%;
+    color: #000000;
+}
+
+.top-footer li {
+    list-style-type: none;
+    margin-left: 35%;
+}
+
+.top-footer a {
+    text-decoration: none;
+}
+
+.top-footer a:visited {
+    text-decoration: none;
+    color: #002E5D;
+}
+
+.top-footer img {
+    border-radius: 50%;
+}
+
+footer h2 {
+    background-color: #002E5D;
+    color: #FFFFFF;
+    margin-top: 0px;
+    padding: 1em;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-footer a:link {
+    color: #002E5D;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Mukta|Noto+Sans+TC:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Rubik&display=swap');
+body {
+    margin: 0px;
+}
+
+.source-buttom {
+    background-color: #F2F2F2;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-bottom-color: #002E5D;
+    margin-bottom: 0px;
+}
+
+#box-message {
+    margin-top: -25px;
+    height: 500px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background: url("images/selfrelaint.jpeg") no-repeat center;
+}
+
+.motivate-message {
+    padding-top: 120px;
+    padding-left: 150px;
+    color: #ffffff;
+}
+
+.motivate-message h3 {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.motivate-message p {
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+#purpose-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+
+.box-text {
+    padding: 1em 0.5em 0.5em;
+    margin: 35px 13% 35px 13%;
+}
+
+.charity-message {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-gap: 1em;
+    margin-bottom: 20px;
+    background: url("images/world.jpeg") no-repeat center center fixed;
+    padding: 1em;
+    color: azure;
+}
+
+.message-day {
+    grid-column: 2;
+    background-color: rgba(0, 46, 92, 0.31);
+    padding: 1.5em;
+}
+
+.message-day h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.message-day p {
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.charity-pictures {
+    background-color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

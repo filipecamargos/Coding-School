@@ -1,0 +1,177 @@
+
+
+@media screen and (max-width: 1400px){
+    
+
+    .main-message{
+        color: #ffffff;
+        padding-top: 130px;
+        padding-left: 180px;
+        padding-right: 120px;
+        padding-bottom: 180px;
+        margin-right: 25%;
+        
+    }
+}
+
+@media screen and (max-width: 770px){
+    body{
+       margin: 0%;
+    }
+
+    nav ul{
+        display: block;
+        margin-left: -40px;
+    }
+
+    .main-message{
+        color: #ffffff;
+        padding: 1em;
+        margin-right: 0px;
+    }
+
+    .main-message  h3{
+        font-size: 35px;
+    }
+
+    .main-message  p{
+        font-size: 15px;
+    }
+
+    #box-message img{
+        height: 200px;
+    }
+
+    .motivate-message{
+        padding-left: 0px;
+    }
+
+    .motivate-message h3{
+        font-family: 'Noto Sans TC', sans-serif;
+        font-size: 35px;
+        margin-bottom: 0px;
+        margin-left: 15%;
+    }
+
+    .motivate-message p{
+        font-size: 17px;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-left: 15%;
+    }
+
+    #box-message{
+        margin-top: -25px;
+        width: 100%;
+        background: url("images/selfrelaint.jpeg");
+    }
+
+    main #box-message{
+        height: 400px;
+        
+    }
+
+    #purpose-box{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows: repeat(3, 1fr);
+        margin-right: 8%;
+        grid-gap: 0px;
+        
+        
+    }
+
+    #box-text1{
+        grid-row: 1;
+        
+        
+    }
+
+    #box-text2{
+        grid-row: 2;
+    }
+
+    #box-text3{
+        grid-row: 3;
+    }
+
+    .box-text{
+        width: 100%;
+        padding: 0%;
+        margin: 5px 10% 5px 10px;
+    }
+
+    .charity-message{
+        display: flex;
+        margin-bottom: 20px;
+        background: url("images/world.jpeg") no-repeat center center fixed;
+        padding: 1em;
+        color: azure;
+    }
+
+
+}
+
+@media screen and (max-width: 630px){
+    .main-sources{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 530px;
+    }
+
+    .top-footer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 230px;
+        background-color: #F6F6F8;
+    } 
+    
+    footer{
+        background-color: #F6F6F8;
+    }
+
+    #footer-links{
+        display: flex;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #footer-links li{
+        margin-left: 20px;
+        
+    }
+
+    #box-message{
+        margin-top: -25px;
+        height: 500px;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 1226px){
+    .charity-pictures{
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 630px){
+
+    .charity-pictures{
+        margin-bottom: 880px;
+        margin-left: 10%;
+    }
+
+} 
+
+@media screen and (max-width: 470px) /*Galaxies Mobiles*/{
+        .top-footer{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 230px;
+            margin-right: 100px;
+            background-color: #F6F6F8;
+        }
+
+
+    }
